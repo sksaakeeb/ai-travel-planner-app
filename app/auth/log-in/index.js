@@ -21,6 +21,7 @@ export default function index() {
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
+        router.replace("HomeScreen");
         console.log(user);
         // ...
       })
