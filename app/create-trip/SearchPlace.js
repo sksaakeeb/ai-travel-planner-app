@@ -15,6 +15,7 @@ export default function SearchPlace() {
             headerTitle: 'Search'
         })
     }, [])
+    
   return (
     <SafeAreaView style={{marginTop: 55, margin: 25}}>
       <View>
