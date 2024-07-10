@@ -7,7 +7,7 @@ export default function Index() {
   const user = auth.currentUser;
 
   return (
-    // <View>{user ? <Redirect href={"HomeScreen"} /> : <LandingScreen />}</View>
-    <SelectDate />
+    <View>{user ? <Redirect href={"HomeScreen"} /> : <LandingScreen />}</View>
+    
   );
 }
